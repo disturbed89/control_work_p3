@@ -7,4 +7,3 @@ def test_existbutton(browser):
     
     assert browser.find_element_by_class_name("btn-add-to-basket"), "Button not find"
     #time.sleep(30)
-    
